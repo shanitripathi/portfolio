@@ -76,7 +76,7 @@ export default () => {
               <div className="title-wrap">
                 <img
                   className="img-small d-block d-md-none"
-                  src={coverBig}
+                  src={coverSmall}
                   alt=""
                 />
                 <h1>Shani Tripathi,</h1>
@@ -114,7 +114,7 @@ export default () => {
                   variants={slideLeft}
                   className="slide-box"
                 ></motion.div>
-                <motion.img className="img-cover" src={coverBig} alt="" />
+                <motion.img className="img-cover" src={coverSmall} alt="" />
               </motion.div>
             </div>
           </div>
