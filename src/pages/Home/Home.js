@@ -1,5 +1,5 @@
 import React from "react";
-import coverBig from "../../img/coverBig.jpg";
+import coverSmall from "../../img/coverSmall.jpg";
 import Agency from "../../img/Agency.png";
 import Days from "../../img/Days.png";
 import EightGates from "../../img/Eight-Gates.png";
