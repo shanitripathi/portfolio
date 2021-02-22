@@ -12,20 +12,20 @@ const Footer = () => {
             href="https://www.linkedin.com/in/shani-tripathi-a6b94717b/"
             target="_blank"
           >
-            <i class="fab fa-linkedin"></i>
+            <i className="fab fa-linkedin"></i>
           </a>
           <a href="https://github.com/shanitripathi" target="_blank">
-            <i class="fab fa-github"></i>
+            <i className="fab fa-github"></i>
           </a>
           <a href="https://www.instagram.com/shani__tripathi/" target="_blank">
-            <i class="fab fa-instagram"></i>
+            <i className="fab fa-instagram"></i>
           </a>
           <a href="mailto:shani.tripathi01@gmail.com">
-            <i class="fas fa-envelope"></i>
+            <i className="fas fa-envelope"></i>
           </a>
         </div>
         <span>
-          <i class="fas fa-copyright"></i>
+          <i className="fas fa-copyright"></i>
           {` Shani Tripathi - ${year}`}
         </span>
       </div>

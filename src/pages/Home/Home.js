@@ -81,7 +81,7 @@ export default () => {
                 />
                 <h1>Shani Tripathi,</h1>
                 <h1>
-                  Front-End <span class="h1-shadow">Developer</span>
+                  Front-End <span className="h1-shadow">Developer</span>
                 </h1>
               </div>
               <p className="about-para">
@@ -99,7 +99,7 @@ export default () => {
                   variants={arrow}
                   animate="visible"
                   initial="hidden"
-                  class="fas fa-long-arrow-alt-down"
+                  className="fas fa-long-arrow-alt-down"
                 ></motion.i>
               </motion.div>
             </motion.div>
@@ -148,7 +148,7 @@ export default () => {
             {projects.map((project) => {
               return (
                 <Project
-                  id={project.link}
+                  key={project.link}
                   img={project.name}
                   link={project.link}
                 />

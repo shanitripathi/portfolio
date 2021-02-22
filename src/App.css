@@ -244,7 +244,7 @@
   height: 40px;
   width: 100%;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
   padding-left: 10px;
   border: 2px solid #4830e6;
@@ -314,7 +314,7 @@ footer .container span i {
   position: absolute;
   content: "View Project";
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: flex-end;
   padding-left: 20px;
   padding-bottom: 10px;
